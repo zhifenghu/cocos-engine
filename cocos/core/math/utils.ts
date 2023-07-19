@@ -119,7 +119,9 @@ export function toDegree (a: number) {
 /**
  * @method random
  */
-export const random = Math.random;
+export function random () {
+    Math.random();
+}
 
 /**
  * @en Returns a floating-point random number between min (inclusive) and max (exclusive).<br/>
